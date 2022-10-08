@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Overpass', sans-serif;
+    height: 100vh;
+    font-size: 15px;
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+ }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+.main-content {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+    background: hsl(213, 19%, 18%);
+    width: 20rem;
+    border-radius: 30px;
+    color: white;
+}
+
+
+.thanks-content {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+    background: hsl(213, 19%, 18%);
+    width: 20rem;
+    border-radius: 30px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.star {
+    padding: 0.6rem;
+    border-radius: 50%;
+    background-color: hsl(214, 21%, 28%);
+}
+
+h1 {
+    padding: 30px 0px 10px;
+    font-weight: 700;
+}
+
+.paragraph {
+    color: hsl(217, 12%, 63%);
+}
+
+
+.main-content ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content ul li button{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: hsl(214, 21%, 28%);
+    border:none;
+    color: white;
+    margin: 20px 0px 20px;
+}
+
+.buttonsubmit {
+    padding: 0.6rem;
+    border-radius: 20px;
+    border: none;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.main-content ul li button:hover {
+    background: hsl(216, 12%, 54%);
+    cursor: pointer;
+}
+
+.main-content ul li button:focus {
+
+    background: hsl(25, 97%, 53%);
+} 
+
+.buttonsubmit:active {
+    background: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.thankyou {
+    justify-self: center;
+    width: 140px;
+    margin: 20px 0px 20px;
+}
+
+.selected {
+    justify-self: center;
+    color: hsl(25, 97%, 53%);
+    background: hsl(215, 21%, 16%);
+    padding: 6px 10px 4px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+h2 {
+    justify-self: center;
+    margin: 15px;
+}
+
+.paragraph2 {
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 15px;
+}
